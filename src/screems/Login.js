@@ -38,7 +38,7 @@ const Login = () => {
       <div className="container fw-bold">
         <div
           style={{ width: "100%" }}
-          className="btn btn-primary mt-3 mb-3 fw-bold"
+          className="btn btn-primary mt-1 mb-2 fw-bold"
         >
           Login Form
         </div>

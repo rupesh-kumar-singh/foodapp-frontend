@@ -102,7 +102,7 @@ const Card = (props) => {
               </select>
               <div className="d-inline h-100 fs-5">{finalPrice}&#8377;</div>
               <hr />
-              <button className="btn btn-success fs-5" onClick={handlebar}>
+              <button className="btn btn-success fs-6" onClick={handlebar}>
                 Add to cart
               </button>
             </div>
