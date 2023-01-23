@@ -75,7 +75,7 @@ const Navbars = () => {
                 <div className="nav-link  m-2 text-success rounded  ">
                   <div
                     variant="light"
-                    className="fs-4 btn bg-white "
+                    className="fs-6 btn bg-white "
                     onClick={() => {
                       setcartview(true);
                     }}
@@ -96,7 +96,7 @@ const Navbars = () => {
                   className="nav-link  m-2   text-danger rounded  "
                   onClick={handle}
                 >
-                  <Button variant="light" className="fs-4 text-danger">
+                  <Button variant="light" className="fs-6 text-danger">
                     Logout
                   </Button>
                 </div>
