@@ -18,7 +18,7 @@ const Navbars = () => {
     <>
       <nav className="navbar fs-4 navbar-expand-lg navbar-light bg-success">
         <div className="container-fluid">
-          <span className="navbar-brand fs-4">Gofood</span>
+          <span className="navbar-brand fs-3">Gofood</span>
           <button
             className="navbar-toggler"
             type="button"
@@ -43,7 +43,7 @@ const Navbars = () => {
               {localStorage.getItem("authtoken") ? (
                 <li className="nav-item">
                   <Link
-                    className="nav-link fs-4 text-white m-2 fw-bolder "
+                    className="nav-link fs-5 text-white m-2 fw-bolder "
                     to="/myorder"
                   >
                     my order
@@ -57,14 +57,14 @@ const Navbars = () => {
             {!localStorage.getItem("authtoken") ? (
               <div className="d-flex">
                 <Link
-                  className="nav-link m-3 fs-4 bg-white text-success rounded"
+                  className="nav-link m-2 fs-6 bg-white text-success rounded"
                   to="/login"
                 >
                   login
                 </Link>
 
                 <Link
-                  className="nav-link m-3 bg-white text-success rounded"
+                  className="nav-link m-2 bg-white fs-6 text-success rounded"
                   to="/createuser"
                 >
                   Signup
