@@ -162,7 +162,7 @@ const Home = () => {
                         return (
                           <div
                             key={filteritem._id}
-                            className="col-11 col-md-5 col-lg-4 col-xl-3"
+                            className="col-11 col-md-5 col-lg-4 col-xl-3  "
                           >
                             <Card
                               fooditem={filteritem}
